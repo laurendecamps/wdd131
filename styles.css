@@ -5,13 +5,14 @@ body {
 }
 
 header {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 1.5;
+    font-size: 40px; /* Increased font size */
 }
 
 h2 {
@@ -19,17 +20,36 @@ h2 {
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 1.5;
+    font-size: 24px; /* Increased font size */
 }
 
 main {
-    max-width: 600px;
+    max-width: 800px; /* Increased max-width */
     margin: 0 auto;
 }
 
 section {
     text-align: left;
+    margin-bottom: 50px; /* Added margin bottom for spacing */
+}
+
+p {
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+}
+
+ul {
+    list-style-type: none; /* Removed default list styles */
+    padding: 0; /* Removed default padding */
+}
+
+li {
+    margin-bottom: 10px; /* Added margin bottom for spacing */
 }
 
 footer {
     margin-top: 50px;
+}
+
+img {
+    max-width: 100%; /* Make sure the image does not exceed its container width */
 }
