@@ -53,3 +53,19 @@ footer {
 img {
     max-width: 100%; /* Make sure the image does not exceed its container width */
 }
+
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+h2 {
+  color: #006EB6; 
+}
+
+body.dark h2 {
+  color: #0077CC; 
+}
+
+.logo {
+}
