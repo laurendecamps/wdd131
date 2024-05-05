@@ -1,3 +1,4 @@
+// mission.js
 document.addEventListener('DOMContentLoaded', function() {
   const themeSelector = document.getElementById('themeSelector');
   const logo = document.querySelector('.logo');
@@ -7,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (selectedTheme === 'dark') {
       document.body.classList.add('dark');
-      logo.src = 'byui-logo_white.webp'; // Assuming the new logo image name is 'byui-logo_white.webp'
+      logo.src = 'byui-logo_white.webp'; 
     } else {
       document.body.classList.remove('dark');
-      logo.src = 'byui-logo_blue.webp'; // Original logo image name
+      logo.src = 'byui-logo_blue.webp'; 
     }
   }
 
